@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtHeaderIme"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Ime"
+                android:textColor="@color/pink" />
+
+            <TextView
+                android:id="@+id/txtHeader1P"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="1 P"
+                android:textColor="@color/pink" />
+
+            <TextView
+                android:id="@+id/txtHeader2p"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 P"
+                android:textColor="@color/pink" />
+
+            <TextView
+                android:id="@+id/txtHeaderAsist"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Asist"
+                android:textColor="@color/pink" />
+
+            <TextView
+                android:id="@+id/txtHeaderSkok"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Skok"
+                android:textColor="@color/pink" />
+
+            <TextView
+                android:id="@+id/txtHeaderPoeni"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Poeni"
+                android:textColor="@color/pink" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txtIme1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Ime" />
+
+            <TextView
+                android:id="@+id/txtigrac1sutZa1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="1 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac1sutZa2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac1Asist"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Asist" />
+
+            <TextView
+                android:id="@+id/txtIgrac1Skok"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Skok" />
+
+            <TextView
+                android:id="@+id/txtIgrac1Poeni"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Poeni" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey">
+
+            <TextView
+                android:id="@+id/txtIme2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Ime" />
+
+            <TextView
+                android:id="@+id/txtigrac2sutZa1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="1 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac2sutZa2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac2Asist"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Asist" />
+
+            <TextView
+                android:id="@+id/txtIgrac2Skok"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Skok" />
+
+            <TextView
+                android:id="@+id/txtIgrac2Poeni"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Poeni" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtIme3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Ime" />
+
+            <TextView
+                android:id="@+id/txtigrac3sutZa1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="1 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac3sutZa2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac3Asist"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Asist" />
+
+            <TextView
+                android:id="@+id/txtIgrac3Skok"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Skok" />
+
+            <TextView
+                android:id="@+id/txtIgrac3Poeni"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Poeni" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey">
+
+            <TextView
+                android:id="@+id/txtIme4"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Ime" />
+
+            <TextView
+                android:id="@+id/txtigrac4sutZa1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="1 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac4sutZa2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac4Asist"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Asist" />
+
+            <TextView
+                android:id="@+id/txtIgrac4Skok"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Skok" />
+
+            <TextView
+                android:id="@+id/txtIgrac4Poeni"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Poeni" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtIme5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Ime" />
+
+            <TextView
+                android:id="@+id/txtigrac5sutZa1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="1 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac5sutZa2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac5Asist"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Asist" />
+
+            <TextView
+                android:id="@+id/txtIgrac5Skok"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Skok" />
+
+            <TextView
+                android:id="@+id/txtIgrac5Poeni"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Poeni" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey">
+
+            <TextView
+                android:id="@+id/txtIme6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Ime" />
+
+            <TextView
+                android:id="@+id/txtigrac6sutZa1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="1 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac6sutZa2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 P" />
+
+            <TextView
+                android:id="@+id/txtIgrac6Asist"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Asist" />
+
+            <TextView
+                android:id="@+id/txtIgrac6Skok"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Skok" />
+
+            <TextView
+                android:id="@+id/txtIgrac6Poeni"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Poeni" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnVratiNaPocetak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_btn"
+        android:padding="5dp"
+        android:text="novi basket"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/txtPoeniPrvogTima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="0"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtSeparat"
+        app:layout_constraintTop_toTopOf="@+id/txtSeparat" />
+
+    <TextView
+        android:id="@+id/txtSeparat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPoeniDrugogTima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="0"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtSeparat"
+        app:layout_constraintStart_toEndOf="@+id/txtSeparat"
+        app:layout_constraintTop_toTopOf="@+id/txtSeparat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

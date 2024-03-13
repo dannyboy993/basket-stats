@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">3x3STATS</string>
+    <string name="igrac1">1.</string>
+    <string name="igrac2">2.</string>
+    <string name="igrac3">3.</string>
+    <string name="igrac4">4.</string>
+    <string name="igrac5">5.</string>
+    <string name="igrac6">6.</string>
+    <string name="UnosImena">Unesi imena igrača</string>
+    <string name="btnPotvrdi">potvrdi</string>
+    <string name="hintIme">ime</string>
+    <string name="pogodak">D</string>
+    <string name="promasaj">X</string>
+
+</resources>
